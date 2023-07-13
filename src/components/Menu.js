@@ -8,11 +8,12 @@ function Menu() {
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/contactos">Contactos</Nav.Link>
             <Nav.Link href="/gastos">Gastos</Nav.Link>
+            <Nav.Link href="/counter">Counter</Nav.Link>
+            <Nav.Link href="/conditional">Conditional</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
