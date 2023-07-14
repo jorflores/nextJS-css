@@ -1,4 +1,5 @@
 import Button from "react-bootstrap/Button";
+import SpecialHeader from "@/components/SpecialHeader";
 
 export default function Home() {
   function mifuncion() {
@@ -13,11 +14,8 @@ export default function Home() {
   return (
     <>
       <br />
-      <Button onClick={mifuncion} variant="primary">
-        Click Me!
-      </Button>
 
-      <h1 onClick={muestraMensaje}>Soy un encabezado</h1>
+      <SpecialHeader titulo="Bienvenidos" />
     </>
   );
 }

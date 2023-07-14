@@ -14,6 +14,9 @@ function Menu() {
             <Nav.Link href="/gastos">Gastos</Nav.Link>
             <Nav.Link href="/counter">Counter</Nav.Link>
             <Nav.Link href="/conditional">Conditional</Nav.Link>
+            <Nav.Link href="/forms">Forms</Nav.Link>
+            <Nav.Link href="/render">Renderizado Listas</Nav.Link>
+            <Nav.Link href="/consulta">Consulta de Datos/API</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

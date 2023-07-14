@@ -1,0 +1,12 @@
+.special {
+  color: yellow;
+  background-color: blue;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}

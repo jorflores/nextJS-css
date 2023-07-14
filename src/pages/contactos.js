@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "../styles/contactos.module.css";
+import SpecialHeader from "@/components/SpecialHeader";
 
 function contactos() {
   return (
     <div>
       <header id={styles.centrado}>
-        <h1>Contactos</h1>
+        <SpecialHeader titulo="Contactos" />
       </header>
 
       <p className={styles.importante}>Hola</p>
